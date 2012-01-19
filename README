@@ -1,0 +1,14 @@
+Toni Ma
+tlm2116
+CSEE 4119
+
+Basic P2P Grid Overlay
+Sends strings by navigating through a grid randomly - basically, a really really simple version of the TOR project
+
+Grid Coordinates are set up as follows
+(0, 0) (1, 0) (2, 0)
+(0, 1) (1, 1) (2, 1) 
+etc 
+
+Usage: java PGOPeer <coord> <coord> to set up the grid 
+FileTransfer.java takes in the string to be sent (with more time, this would've taken a filename and sent the actual file)
