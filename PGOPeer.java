@@ -8,6 +8,9 @@ public class PGOPeer{
 	    } else{
 		GSocket socket = new GSocket(new PGOCoord(x,y));
 	    }
+	} catch (NumberFormatException e) { 
+	    System.err.println("Usage: java PGOPeer x y");
+	    System.exit(1);
 	} catch(ArrayIndexOutOfBoundsException e){
 	    System.err.println("Usage: java PGOPeer x y");
 	    System.exit(1);

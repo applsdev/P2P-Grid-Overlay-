@@ -4,7 +4,6 @@ import java.io.*;
 public class StartSocket extends GSocket{
     public StartSocket(){
 	super(new PGOCoord(0,0));
-	System.out.println("I'm a special socket!");
 	getFile();
     }
 
